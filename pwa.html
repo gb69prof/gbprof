@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PWA - gbprof</title>
+  <meta name="description" content="Progressive Web App didattiche del laboratorio gbprof.">
+  <meta name="theme-color" content="#061018">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="pwa">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="gbprof home"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M48 8C29 11 15 24 12 45c8-11 18-17 31-22-12 7-21 17-26 31C33 50 46 32 48 8Z" fill="currentColor"/><path d="M16 52c8-3 18-9 27-23" stroke="#f0cc83" stroke-width="2" fill="none" opacity=".75"/></svg><strong>gbprof</strong><span>Laboratorio didattico digitale</span></a>
+    <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navigazione principale">
+      <a href="index.html" data-nav="home">Home</a>
+<a href="filosofia.html" data-nav="filosofia">Filosofia</a>
+<a href="letteratura.html" data-nav="letteratura">Letteratura</a>
+<a href="storia.html" data-nav="storia">Storia</a>
+<a href="pwa.html" data-nav="pwa">PWA</a>
+<a href="mappe.html" data-nav="mappe">Mappe</a>
+<a href="3d-vr.html" data-nav="3d-vr">3D/VR</a>
+<a href="collaborazione.html" data-nav="collaborazione">Collaborazione</a>
+<a href="archivio-github.html" data-nav="archivio">Archivio GitHub</a>
+<a href="progetti.html" data-nav="progetti">Progetti</a>
+<a href="contatti.html" data-nav="contatti">Contatti</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg"><img src="assets/img/pwa-cover.png" alt="Copertina PWA"></div>
+  <div class="container hero-content">
+    <div class="hero-text">
+      <div class="kicker">Applicazioni web</div>
+      <h1>PWA</h1>
+      <div class="rule"><span>⌘</span></div>
+      <p class="lead">Libri vivi, percorsi interattivi, studio che si attraversa.</p>
+      <p>Le Progressive Web App di gbprof uniscono lezioni, mappe, video, appunti, quiz ed esplorazioni guidate in ambienti digitali accessibili, fluidi e sempre con te.</p>
+      <div class="hero-actions">
+      <a class="btn primary" href="#contenuti">Entra nella sezione</a>
+      <a class="btn" href="index.html">Torna alla home</a>
+    </div>
+    </div>
+    <a class="cover-frame" href="assets/img/pwa-cover.png" target="_blank" rel="noopener">
+      <img src="assets/img/pwa-cover.png" alt="Anteprima grafica della pagina PWA">
+      <span class="cover-label">Apri copertina</span>
+    </a>
+  </div>
+</section>
+<section class="page-intro">
+  <div class="container">
+    <div class="panel">
+      <div class="breadcrumbs"><a href="index.html">Home</a> / sezione</div>
+      <p>Ogni PWA è pensata come un libro vivo: non una cartella di materiali, ma un ambiente ordinato in cui studiare, collegare, ricordare e verificarsi.</p>
+      <div class="mini-index"><a href="#percorsi">Percorsi PWA</a><a href="#dentro">Cosa trovi dentro</a><a href="#evidenza">In evidenza</a></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="percorsi">
+  <div class="container">
+    <div class="section-title"><h2>Percorsi PWA</h2><p>Le applicazioni già progettate o in costruzione.</p></div>
+    <div class="grid cols-3" id="percorsi">
+<article class="card"><div class="icon">✒</div><h3>Foscolo</h3><p>Lezioni, mappe, visione del mondo e opere.</p><a class="more" href="#">Entra →</a></article>
+<article class="card"><div class="icon">∞</div><h3>Leopardi</h3><p>Fratture, immagine del mondo, poetica e testi.</p><a class="more" href="#">Entra →</a></article>
+<article class="card"><div class="icon">☩</div><h3>Manzoni</h3><p>Provvidenza, storia, romanzo moderno e responsabilità.</p><a class="more" href="#">Entra →</a></article>
+<article class="card"><div class="icon">◉</div><h3>Svevo</h3><p>Coscienza, inettitudine e modernità.</p><a class="more" href="#">Entra →</a></article>
+<article class="card"><div class="icon">⚑</div><h3>Rivoluzione francese</h3><p>Eventi, idee, protagonisti, carte e mappe.</p><a class="more" href="#">Entra →</a></article>
+<article class="card"><div class="icon">⚙</div><h3>Universo come macchina</h3><p>Letteratura, storia, filosofia e scienza in dialogo.</p><a class="more" href="#">Entra →</a></article>
+</div>
+  </div>
+</section>
+<section class="section" id="dentro">
+  <div class="container">
+    <div class="section-title"><h2>Cosa trovi dentro</h2><p>Strumenti integrati per rendere lo studio più attivo e meno dispersivo.</p></div>
+    <div class="split" id="dentro"><div class="grid cols-2">
+<article class="card"><div class="icon">📖</div><h3>Lezioni navigabili</h3><p>Lezioni strutturate per muoversi tra contenuti, schemi e collegamenti.</p></article>
+<article class="card"><div class="icon">☷</div><h3>Mappe concettuali</h3><p>Mappe vive e interattive per collegare idee e concetti chiave.</p></article>
+<article class="card"><div class="icon">▶</div><h3>Video e approfondimenti</h3><p>Video selezionati e materiali per capire di più.</p></article>
+<article class="card"><div class="icon">☑</div><h3>Test e quiz</h3><p>Verifiche e quiz interattivi per mettersi alla prova.</p></article>
+<article class="card"><div class="icon">✎</div><h3>Taccuino e appunti</h3><p>Spazio personale per annotare, evidenziare e riflettere.</p></article>
+<article class="card"><div class="icon">⌖</div><h3>Percorsi guidati</h3><p>Itinerari tematici per esplorare argomenti passo dopo passo.</p></article>
+</div><div class="cover-frame"><img src="assets/img/pwa-cover.png" alt="Anteprima PWA" loading="lazy"><span class="cover-label">Sfoglia. collega. esplora.</span></div></div>
+  </div>
+</section>
+<section class="section" id="evidenza">
+  <div class="container">
+    <div class="section-title"><h2>In evidenza</h2><p>Quattro idee che definiscono il senso delle PWA.</p></div>
+    <div class="grid cols-4" id="evidenza"><article class="card"><div class="icon">📚</div><h3>Libro vivo</h3><p>Ogni PWA è un libro digitale interattivo, aggiornato e consultabile ovunque.</p></article><article class="card"><div class="icon">🏛</div><h3>Biblioteca interna</h3><p>Documenti, testi, schede e fonti sempre a portata di mano.</p></article><article class="card"><div class="icon">⬡</div><h3>Percorsi 3D collegati</h3><p>Collegamenti diretti a esperienze 3D/VR per vedere e comprendere meglio.</p></article><article class="card"><div class="icon">🧠</div><h3>Studio con IA</h3><p>Assistente intelligente per approfondire, riassumere e collegare le idee.</p></article></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div><span class="brand">gbprof</span> — Laboratorio didattico digitale</div>
+    <div class="social" aria-label="Collegamenti rapidi">
+      <a href="archivio-github.html" title="Archivio GitHub">⌬</a>
+      <a href="pwa.html" title="PWA">▣</a>
+      <a href="contatti.html" title="Contatti">✉</a>
+    </div>
+    <div>Materiali didattici, percorsi e sperimentazione digitale.</div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "gbprof - Laboratorio didattico digitale",
+  "short_name": "gbprof",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#061018",
+  "theme_color": "#061018",
+  "icons": [
+    {"src":"assets/img/favicon.svg","sizes":"64x64","type":"image/svg+xml"}
+  ]
+}
